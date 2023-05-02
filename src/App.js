@@ -29,6 +29,8 @@ function App() {
      <Expenses items={expenses}/>
      <h1>Changes</h1>
      <h1>Change2</h1>
+     <h1>Change3</h1>
+
     </div>
   );
 }
