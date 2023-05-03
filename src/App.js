@@ -1,7 +1,7 @@
 // import ExpensesItem from './COMPONENTS/ExpensesItem';
-import Expenses from './COMPONENTS/Expenses';
+import Expenses from './COMPONENTS/Expensesnew/Expenses';
 
-function App() {
+const  App = () => {
   const expenses = [
     {
       id: 'e1',
@@ -27,9 +27,6 @@ function App() {
     <div className="App">
       <h2>Let's get Started !</h2>
      <Expenses items={expenses}/>
-     <h1>Changes</h1>
-     <h1>Change2</h1>
-     <h1>Change3</h1>
 
     </div>
   );
